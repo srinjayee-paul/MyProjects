@@ -20,7 +20,7 @@ label1.place(x=0,y=0)'''
 
 def page1():
     import pymysql as pm
-    mydb=pm.connect(host="localhost", user="root", passwd="joyee@15")
+    mydb=pm.connect(host="localhost", user="root", passwd="sneha_15")
     mycur=mydb.cursor()
     mycur.execute("use project2022")
     mydb.commit()
@@ -93,7 +93,7 @@ def page1():
     
 def page2():
     import pymysql as pm
-    mydb=pm.connect(host="localhost", user="root", passwd="joyee@15")
+    mydb=pm.connect(host="localhost", user="root", passwd="sneha_15")
     mycur=mydb.cursor()
     mycur.execute("use project2022")
     mydb.commit()
@@ -154,7 +154,7 @@ def page2():
  
 def page3():
      import pymysql as pm
-     mydb=pm.connect(host="localhost", user="root", passwd="joyee@15")
+     mydb=pm.connect(host="localhost", user="root", passwd="sneha_15")
      mycur=mydb.cursor()
      mycur.execute("use project2022")
      mydb.commit()
