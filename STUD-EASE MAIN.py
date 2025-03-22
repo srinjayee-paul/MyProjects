@@ -5,18 +5,18 @@ xy=Tk()
 xy.title('StudEase')
 xy.geometry("1000x600")
 xy.resizable(0,0)
-'''img2=Image.open("C:\\Users\\Sneha\\Pictures\\Saved Pictures\\backgrd.png")
+img2=Image.open("C:\\Users\\Sneha\\Pictures\\Saved Pictures\\backgrd.png")
 img1=ImageTk.PhotoImage(img2)
 label1=Label(xy, image=img1)
-label1.place(x=0,y=0)'''
+label1.place(x=0,y=0)
 label2=Label(xy, text="STUD EASE",fg="royal blue",bg="gray75",font=("Broadway",56, "underline","bold"),width=20)
 label2.place(x=0,y=0)
 label3=Label(xy, text="'Online Education At One Place'",bg="gray75",fg="orange red", font=("Times 30 underline italic"),width=48)
 label3.place(x=0,y=90)
-'''img3 =Image.open("C:\\Users\\Sneha\\Pictures\\Saved Pictures\\logonew2.png")  
+img3 =Image.open("C:\\Users\\Sneha\\Pictures\\Saved Pictures\\logonew2.png")  
 img4 = ImageTk.PhotoImage(img3)
 label1=Label(xy, image=img4, bg="gray75",height=140)
-label1.place(x=0,y=0)'''
+label1.place(x=0,y=0)
 
 def page1():
     import pymysql as pm
